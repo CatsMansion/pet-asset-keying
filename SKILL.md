@@ -1,5 +1,7 @@
 ---
 name: pet-asset-keying
+displayName: "Pet Asset Keying (宠物素材抠像)"
+category: "image-processing"
 slug: pet-asset-keying
 description: "Cut pet (anthropomorphized character) assets to transparent PNG — single image or video frame sequences. Primary method is 'outline-cut': slice along the character's own outline so the boundary already sits on the line; do NOT hunt for edges inside the anti-aliasing blur band. No AI model required (no rembg / no torch / no onnx). Use for 'matting', 'remove background', 'transparent PNG', 'hair-edge cutout', 'video frame keying', 'batch cutout', 'gray halo or black edge on border', '抠图', '去背景', '透明底', '发丝边缘', '批量抠像'. Includes calibrated parameters, enclosed-space (crescent/irregular) handling, safety guardrails, a self-check report, and a 'tested backfires — do not retry' list."
 agent_created: true
